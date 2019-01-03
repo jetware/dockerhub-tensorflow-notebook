@@ -1,0 +1,6 @@
+[submodule "build-common"]
+	path = build-common
+	url = git@github.com:jetware/docker-build-common.git
+[submodule "tags-generator"]
+	path = tags-generator
+	url = git@github.com:jetware/docker-tags-generator.git

@@ -1,0 +1,5 @@
+cpu -
+gpu_cuda9.2 gpu_cuda9
+gpu_cuda9.1 gpu_cuda9
+gpu_cuda9.0 gpu_cuda9
+gpu_cuda9 gpu

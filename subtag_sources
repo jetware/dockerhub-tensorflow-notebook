@@ -1,0 +1,6 @@
+tensorflow
+python
+keras
+accel:mkl:cpu_mkl
+accel:cuda:gpu_cuda
+accel::cpu
