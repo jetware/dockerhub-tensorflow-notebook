@@ -1,5 +1,4 @@
 cpu -
+cpu_mkl2018.2.199 cpu_mkl
 gpu_cuda9.2 gpu_cuda9
-gpu_cuda9.1 gpu_cuda9
-gpu_cuda9.0 gpu_cuda9
 gpu_cuda9 gpu

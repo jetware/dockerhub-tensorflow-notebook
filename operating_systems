@@ -1,1 +1,4 @@
-alpine3.8 debian9 ubuntu18.04 centos7
+centos7 CentOS 7
+debian9 Debian 9
+ubuntu18.04 Ubuntu 18.04 LTS
+alpine3.8 Alpine 3.8
