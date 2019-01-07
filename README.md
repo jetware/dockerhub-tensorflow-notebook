@@ -4,19 +4,21 @@ A pre-configured and fully integrated minimal runtime environment with TensorFlo
 
 The stack is built in several variations with different hardware optimization features: OpenBLAS and Intel MKL for x86 CPU, and CUDA for NVidia GPU.
 
-Latest versions:
+### Tagging policy
 
-* TensorFlow: 1.12.0
-* Python: 3.6.3
+Tag format:
+
+```
+tensorflow-notebook:<tensorflow_version>-python<python_version>-keras<keras_version>-<optimization>-<operating_system>
+```
 
 Versions available:
 
-* TensorFlow: 1.11.0, 1.10.0, 1.9.0, 1.8.0, 1.7.0, 1.6.0, 1.5.0, 1.4.1, 1.3.0
-* Python: 3.6.3, 2.7.14
-
-### Issues
-
-If you encountered a problem running this container, please file an [issue](https://github.com/jetware/dockerhub-tensorflow-notebook/issues).
+* TensorFlow versions: **1.12.0**, 1.11.0, 1.10.0, 1.9.0, 1.8.0, 1.7.0, 1.6.0, 1.5.0, 1.4.1, 1.3.0
+* Python versions: **3.6.3**, 2.7.14
+* Keras versions: **2.2.4**, 2.2.2, 2.1.6, 2.0.2, 1.2.2
+* Optimizations: **cpu**, cpu_mkl, cuda9, cuda10
+* Operating systems: **alpine3.8**, ubuntu18.04, debian9, centos7
 
 ### Actual tags
 
@@ -68,6 +70,10 @@ If you encountered a problem running this container, please file an [issue](http
 * Software: TensorFlow 1.12.0, Keras 2.2.4, Python 2.7.14, Jupyter Notebook 1.0.0, Development preset 1 on CentOS 7
 * Jetware appliance: [aise/tensorflow112_keras22_python27_mkl_notebook-190103](https://jetware.io/appliances/aise/tensorflow112_keras22_python27_mkl_notebook-190103?us=dockerhub)
 
+
+### Issues
+
+If you encountered a problem running this container, please file an [issue](https://github.com/jetware/dockerhub-tensorflow-notebook/issues).
 
 ---
 (c) 2019 [Jetware](https://jetware.io)
